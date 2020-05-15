@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="year2.css">
+
+<script src="cuny-design.js"></script>
+
+
+     
+      <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed|Bitter|Cabin|Dancing+Script|Exo+2|Frank+Ruhl+Libre|Gentium+Book+Basic|Josefin+Sans|Lusitana|Yrsa&display=swap" rel="stylesheet">
+     
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="cuny-design.js"></script>
+
+<link rel="stylesheet" type="text/css" href="nav-style.css">
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    var dropdown = $(".navbar-right .dropdown");
+    var toogleBtn = $(".navbar-right .dropdown-toggle");
+   
+    // Toggle search and close icon for search dropdown
+    dropdown.on("show.bs.dropdown", function(e){
+      toogleBtn.toggleClass("hide");
+    });
+    dropdown.on("hide.bs.dropdown", function(e){
+      toogleBtn.addClass("hide");
+      toogleBtn.first().removeClass("hide");
+    });
+  });
+</script>
+
+
+
+
+
+     
+  </head>
+  <body>
+      <div class="container">
+
+<nav class="navbar navbar-default navbar-expand-lg navbar-light">
+  <div class="navbar-header d-flex col">
+    <a class="navbar-brand" href="index.html"> <span class="b_heading">CUNY DESIGN</span><br><span class="s_heading"></span>Design Programs Across CUNY </a>    
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+    <ul class="nav navbar-nav">
+      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+         
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Degrees <b class="caret"></b></a>
+        <ul class="dropdown-menu">          
+          <li><a href="2-year.html" class="dropdown-item">2-year</a></li>
+          <li><a href="4-year.html" class="dropdown-item">4-year</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Topics <b class="caret"></b></a>
+        <ul class="dropdown-menu">  
+          <li><a href="animation.html" class="dropdown-item">Animation</a></li>        
+          <li><a href="digital-design.html" class="dropdown-item">Digital Design</a></li>
+          <li><a href="Industrial.html" class="dropdown-item">Industrial Design</a></li>
+        </ul>
+      </li>
+
+       <li class="nav-item active"><a href="https://www.cuny.edu/admissions/undergraduate/apply/" class="nav-link">Apply</a></li>
+     
+    </ul>  
+    <ul class="nav navbar-nav navbar-right ml-auto">      
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#"><i class="fa fa-search"></i></a>
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle hide" href="#"><i class="fa fa-close"></i></a>
+        <ul class="dropdown-menu">
+          <li>
+                        <form>
+                            <div class="input-group search-box">                
+                                <input type="text" id="search" class="form-control" placeholder="Search here...">
+                <span class="input-group-btn">
+                  <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                </span>
+                            </div>
+                        </form>                        
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+          <main class="page-main">
+         
+              <h2> 2-year Programs</h2>
+          <div class="programs">
+             
+             
+          <div class="card">
+             
+              <img src="meacard.jpg" alt="mea"> 
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Bourough of Manhattan Community College</h5>
+              <h4 class="card-title"> Animation and Motion Graphics</h4>
+              <h5> A.S.</h5>
+              <a href="bmcc2.html" class="btn learn"> Learn More</a></div>
+                   
+             
+          </div>  
+
+       <!-- <div class="card">
+             
+              <img src="bmcc-programming.jpeg" alt="bmcc-programming" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Bourough of Manhattan Community College</h5>
+              <h4 class="card-title"> Multimedia Programming and Design</h4>
+              <h5> A.S.</h5>
+              <a href="bmccrev.html"  class="btn learn"> Learn More</a></div>
+                   
+             
+          </div>  -->  
+
+        <div class="card">
+             
+              <img src="bmcc-design.png" alt="bmcc-design" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Bourough of Manhattan Community College</h5>
+              <h4 class="card-title"> Multimedia Programming and Graphic Design</h4>
+              <h5> A.S.</h5>
+              <a href="bmcc3.html"  class="btn learn"> Learn More</a></div>
+        </div>
+               
+        <div class="card">
+               <img src="bronxdd.png" alt="bronxdd" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Bronx Community College</h5>
+              <h4 class="card-title"> Digital Design</h4>
+              <h5> A.A.S.</h5>
+              <a href="bronx.html" class="btn learn"> Learn More</a></div>
+        </div>
+             
+        <div class="card">
+               <img src="animation.jpg" alt="animation.jpg" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Hostos Community College</h5>
+              <h4 class="card-title"> Digital Design and Animation</h4>
+              <h5> A.S.</h5>
+              <a href="Hostos.html" class="btn learn"> Learn More</a></div>
+
+        </div>
+
+        <div class="card">
+              <img src="gamedesign.jpg" alt="game-design" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Hostos Community College</h5>
+              <h4 class="card-title"> Game Design</h4>
+              <h5> A.S.</h5>
+              <a href="Hostos2.html" class="btn learn"> Learn More</a></div>
+        </div>
+       
+        <div class="card">
+               <img src="illustration.jpg" alt="illustration" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Kingsborough Community College</h5>
+              <h4 class="card-title"> Graphic Design and Illustration</h4>
+              <h5> A.S.</h5>
+              <a href="Kingsborough.html" class="btn learn"> Learn More</a></div>
+         </div>
+         
+        
+             
+        <div class="card">
+               <img src="industrial.jpeg" alt="industrial" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> LaGuardia Community College</h5>
+              <h4 class="card-title"> Industrial Design</h4>
+              <h5> A.A.S.</h5>
+              <a href="LaGuardia.html" class="btn learn"> Learn More</a></div>
+        </div>
+       
+        <div class="card">
+             <img src="New-Media.jpeg" alt="New Media" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> LaGuardia Community College</h5>
+              <h4 class="card-title"> New Media Technology</h4>
+              <h5> A.A.S.</h5>
+              <a href="LaGuardia2.html" class="btn learn"> Learn More</a></div>
+         </div>
+
+         <div class="card">
+               <img src="design.jpeg" alt="design" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> Queensborough Community College</h5>
+              <h4 class="card-title"> Digital Art and Design</h4>
+              <h5> A.S.</h5>
+              <a href="Queens.html" class="btn learn"> Learn More</a></div>
+        </div>
+             
+        <div class="card">
+               <img src="computers.jpeg" alt="computers" class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> New York City College of Technology</h5>
+              <h4 class="card-title"> Multimedia Programming and Graphic Design</h4>
+              <h5> A.A.S.</h5>
+              <a href="New-York.html" class="btn learn"> Learn More</a></div>
+         </div>
+             
+        <div class="card">
+               <img src="communication-design.jpg" alt="communication-design." class="fluid-image">
+                   <div class= "card-body">
+              <h5 class="card-subtitle"> New York City College of Technology</h5>
+              <h4 class="card-title"> Communication Design</h4>
+              <h5> A.A.S.</h5>
+              <a href="New-York2.html" class="btn learn"> Learn More</a></div>
+
+        </div>
+             
+    </div>
+</main> 
+<footer>   <p>&copy;2020 The City University of New York</p></footer>
+
+</div> <!--closes the container-->
+   
+  </body>
+</html>

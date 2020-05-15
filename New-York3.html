@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="year2.css">
+     
+      <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed|Bitter|Cabin|Dancing+Script|Exo+2|Frank+Ruhl+Libre|Gentium+Book+Basic|Josefin+Sans|Lusitana|Yrsa&display=swap" rel="stylesheet">
+     
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="cuny-design.js"></script>
+<link rel="stylesheet" type="text/css" href="nav-style.css">
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    var dropdown = $(".navbar-right .dropdown");
+    var toogleBtn = $(".navbar-right .dropdown-toggle");
+   
+    // Toggle search and close icon for search dropdown
+    dropdown.on("show.bs.dropdown", function(e){
+      toogleBtn.toggleClass("hide");
+    });
+    dropdown.on("hide.bs.dropdown", function(e){
+      toogleBtn.addClass("hide");
+      toogleBtn.first().removeClass("hide");
+    });
+  });
+</script>
+
+
+
+
+
+
+
+     
+  </head>
+  <body>
+      <div class="container">
+
+<nav class="navbar navbar-default navbar-expand-lg navbar-light">
+  <div class="navbar-header d-flex col">
+    
+    <a class="navbar-brand" href="index.html"> <span class="b_heading">CUNY DESIGN</span><br><span class="s_heading"></span>Design Programs Across CUNY </a>     
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+    <ul class="nav navbar-nav">
+     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+         
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Degrees <b class="caret"></b></a>
+        <ul class="dropdown-menu">          
+          <li><a href="2-year.html" class="dropdown-item">2-year</a></li>
+          <li><a href="4-year.html" class="dropdown-item">4-year</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Topics <b class="caret"></b></a>
+        <ul class="dropdown-menu">  
+          <li><a href="animation.html" class="dropdown-item">Animation</a></li>        
+          <li><a href="digital-design.html" class="dropdown-item">Digital Design</a></li>
+          <li><a href="Industrial.html" class="dropdown-item">Industrial Design</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item active"><a href="https://www.cuny.edu/admissions/undergraduate/apply/" class="nav-link">Apply</a></li>
+     
+    </ul>  
+    <ul class="nav navbar-nav navbar-right ml-auto">      
+      <li class="nav-item dropdown">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#"><i class="fa fa-search"></i></a>
+        <a data-toggle="dropdown" class="nav-link dropdown-toggle hide" href="#"><i class="fa fa-close"></i></a>
+        <ul class="dropdown-menu">
+          <li>
+                        <form>
+                            <div class="input-group search-box">                
+                                <input type="text" id="search" class="form-control" placeholder="Search here...">
+                <span class="input-group-btn">
+                  <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                </span>
+                            </div>
+                        </form>                        
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+          
+          <main class="page-main"> 
+              <img src="computers.jpeg" alt="computers" class="fluid-image">
+    
+              <h3> New York City College of Technology</h3>
+              <h2> Communication Design </h2>
+              <h4> Degree: B.F.A. </h4>
+              
+                  <p> The Department of Communication Design is committed to providing a public avenue to the range of professions that utilize creativity, technology and design. The foundation of our program is based on integrating fundamental theory and concepts with applied technology. We believe in building a culture that encourages conceptual thinking, creativity and collaboration. Our approach harnesses the wealth of our students diversity to inspire ideas, enrich communications and produce solutions.</p>
+
+              <p> The Communication Design Department (COMD) is committed to developing creative visual literacy in critical thinkers and problem solvers who are empowered to meet design industry needs with functional knowledge and technological skills. Building on a proven foundation of communication design theory and concepts, COMD coursework is also focused on integrating applied technology for successful "real world" results. There is a focus on fundamental lessons through experiential, project-based learning.</p>
+
+              <p> The curriculum builds on a study of big ideas where communication design is interpreted through multiple media channels using creative, effective and sustainable metrics. Creative applications in all media follow best practices, specifications and standards to prepare graduates for employment in advertising, publishing, packaging, corporate communications and commercial or non — commercial marketing services. The BFA degree, building on the solid foundation in visual expression of the first two years, develops students' abilities to frame, research and solve increasingly complex visual communication problems. Students develop a professional portfolio that represents their talents and prepares them for employment upon graduation as art directors, graphic designers, illustrators and web designers. They are also qualified to apply for masters programs in related communication design fields. COMD faculty and students benefit from a diverse mix of professional backgrounds and experiences. The COMD department is uniquely positioned to offer a rigorous and reflective college education to prepare graduates for life-long learning.</p>
+          </main>
+
+
+          <p> <a href="http://www.citytech.cuny.edu/communication-design/"> Learn more   </a>   </p>
+          <footer>   <p>&copy;2020 The City University of New York</p></footer>
+    </div>
+  </body>
+</html>

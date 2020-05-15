@@ -1,0 +1,27 @@
+/*-- 2-year page--*/
+
+.programs{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card{
+  width: 100%;
+  
+}
+.programs img{
+  width: 100%;
+}
+@media only screen and (min-width: 481px){
+  .card{
+    width: 30%;
+    margin: 1.5%;
+  }
+}
+
+@media only screen and (min-width: 761px){
+  .card{
+    width: 22%;
+    /*margin: 1%;*/
+  }
+}
